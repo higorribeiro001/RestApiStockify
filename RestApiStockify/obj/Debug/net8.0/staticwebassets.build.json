@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "UujXJxBdqc6AfohdUTAhAmgvhUfb8uwLET5g2/JmVgc=",
+  "Source": "RestApiStockify",
+  "BasePath": "_content/RestApiStockify",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

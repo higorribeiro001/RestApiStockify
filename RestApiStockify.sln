@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApiStockify", "RestApiStockify\RestApiStockify.csproj", "{B1214FDF-4698-4653-BAF7-094708E20BA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1214FDF-4698-4653-BAF7-094708E20BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1214FDF-4698-4653-BAF7-094708E20BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1214FDF-4698-4653-BAF7-094708E20BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1214FDF-4698-4653-BAF7-094708E20BA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05961AF8-33FF-4317-8A7C-E00F302D56AA}
+	EndGlobalSection
+EndGlobal
