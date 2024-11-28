@@ -5,6 +5,7 @@ using RestApiStockify.Business;
 using RestApiStockify.Business.Implementations;
 using RestApiStockify.Model.Context;
 using RestApiStockify.Repository.Generic;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,7 +14,11 @@ var appVersion = "v1";
 var appDescription = $"REST API RESTful developed for project Stockify";
 
 builder.Services.AddRouting(options => options.LowercaseUrls = true);
-builder.Services.AddControllers();
+builder.Services.AddControllers()
+    .AddNewtonsoftJson(options =>
+    {
+        options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+    });
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c => {
@@ -45,6 +50,7 @@ builder.Services.AddApiVersioning(options =>
 });
 
 // Dependency Injection
+builder.Services.AddScoped<IProductBusiness, ProductBusinessImplementation>();
 builder.Services.AddScoped<ICategoryBusiness, CategoryBusinessImplementation>();
 builder.Services.AddScoped<IAddressBusiness, AddressBusinessImplementation>();
 builder.Services.AddScoped<IDepositBusiness, DepositBusinessImplementation>();

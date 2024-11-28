@@ -6,13 +6,6 @@ namespace RestApiStockify.Data.Converter.Implementations
 {
     public class DepositConverter : IParser<DepositVO, Deposit>, IParser<Deposit, DepositVO>
     {
-        private readonly AddressConverter _addressConverter = new AddressConverter();
-
-        public DepositConverter()
-        {
-            _addressConverter = new AddressConverter();
-        }
-
         public Deposit Parse(DepositVO origin)
         {
             if (origin == null) return null;
@@ -23,6 +16,7 @@ namespace RestApiStockify.Data.Converter.Implementations
                 Limit = origin.Limit,
                 IsActive = origin.IsActive,
                 AddressId = origin.AddressId,
+                Address = origin.Address,
             };
         }
 
@@ -36,6 +30,7 @@ namespace RestApiStockify.Data.Converter.Implementations
                 Limit = origin.Limit,
                 IsActive = origin.IsActive,
                 AddressId = origin.AddressId,
+                Address = origin.Address,
             };
         }
 

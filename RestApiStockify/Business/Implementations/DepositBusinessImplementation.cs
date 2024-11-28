@@ -18,15 +18,6 @@ namespace RestApiStockify.Business.Implementations
             _repository = repository;
             _converter = new DepositConverter();
         }
-        public List<DepositVO> FindAll()
-        {
-            return _converter.Parse(_repository.FindAll());
-        }
-
-        public DepositVO FindByID(long id)
-        {
-            return _converter.Parse(_repository.FindByID(id));
-        }
 
         public DepositVO Create(DepositVO deposit)
         {
@@ -41,7 +32,7 @@ namespace RestApiStockify.Business.Implementations
             var depositEntity = _converter.Parse(deposit);
             depositEntity = _repository.Update(depositEntity);
 
-            return _converter.Parse( depositEntity);
+            return _converter.Parse(depositEntity);
         }
         public Deposit Delete(long id)
         {

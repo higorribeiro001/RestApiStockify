@@ -45,7 +45,7 @@ namespace RestApiStockify.Controllers
         public IActionResult Post([FromBody] AddressVO address)
         {
             if (address == null) return BadRequest();
-            return Ok(_addressBusiness.Create(address));
+            return Created(value: _addressBusiness.Create(address), uri: "");
         }
 
         [HttpPut]

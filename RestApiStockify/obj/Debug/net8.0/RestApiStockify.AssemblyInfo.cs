@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RestApiStockify")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b8c7ee915dbaaa6b5e7d17b9f11655259e0e1e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("RestApiStockify")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RestApiStockify")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

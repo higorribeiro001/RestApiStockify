@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using RestApiStockify.Business;
 using RestApiStockify.Data.VO;
 using RestApiStockify.Model;
@@ -26,22 +27,22 @@ namespace RestApiStockify.Controllers
         }
 
         [HttpGet]
-        [ProducesResponseType((200), Type = typeof(List<DepositVO>))]
+        [ProducesResponseType((200), Type = typeof(List<Deposit>))]
         [ProducesResponseType(204)]
         [ProducesResponseType(400)]
-        public IActionResult Get()
+        public async Task<ActionResult<List<Deposit>>> Get()
         {
-            return Ok(_depositBusiness.FindAll());
+            var deposits = await _context.Deposit.Include(a => a.Address).ToListAsync();
+            return Ok(deposits);
         }
 
         [HttpGet("{id}")]
-        [ProducesResponseType((200), Type = typeof(DepositVO))]
+        [ProducesResponseType((200), Type = typeof(Deposit))]
         [ProducesResponseType(204)]
         [ProducesResponseType(400)]
-        public IActionResult Get(long id)
+        public async Task<ActionResult<Deposit>> Get(long id)
         {
-            var deposit = _depositBusiness.FindByID(id);
-            if (deposit == null) return NotFound();
+            var deposit = await _context.Deposit.Where(a => a.Id == id).Include(a => a.Address).ToListAsync();
             return Ok(deposit);
         }
 
@@ -54,19 +55,19 @@ namespace RestApiStockify.Controllers
             if (deposit == null) return BadRequest();
 
             var address = _context.Address.SingleOrDefault(p => p.Id == deposit.AddressId);
-            if (address == null) return NotFound("Address not found.");
+            if (address == null) return BadRequest("Address not found.");
 
-            return Ok(_depositBusiness.Create(deposit));
+            return Created(value: _depositBusiness.Create(deposit), uri: "");
         }
 
         [HttpPut]
         [ProducesResponseType((200), Type = typeof(DepositVO))]
         [ProducesResponseType(204)]
         [ProducesResponseType(400)]
-        public IActionResult Put([FromBody] DepositVO address)
+        public IActionResult Put([FromBody] DepositVO deposit)
         {
-            if (address == null) return BadRequest();
-            return Ok(_depositBusiness.Update(address));
+            if (deposit == null) return BadRequest();
+            return Ok(_depositBusiness.Update(deposit));
         }
 
         [HttpDelete]

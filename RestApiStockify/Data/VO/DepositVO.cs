@@ -1,6 +1,5 @@
 ﻿using RestApiStockify.Model;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace RestApiStockify.Data.VO
 {
@@ -11,6 +10,7 @@ namespace RestApiStockify.Data.VO
         public int Limit { get; set; }
         public bool IsActive { get; set; }
         public long AddressId { get; set; }
-        public Address Address { get; set; }
+        [JsonIgnore]
+        public Address? Address { get; set; }
     }
 }

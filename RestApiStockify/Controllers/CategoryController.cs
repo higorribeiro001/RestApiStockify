@@ -45,7 +45,7 @@ namespace RestApiStockify.Controllers
         public IActionResult Post([FromBody] CategoryVO category)
         {
             if (category == null) return BadRequest();
-            return Ok(_categoryBusiness.Create(category));
+            return Created(value: _categoryBusiness.Create(category), uri: "");
         }
 
         [HttpPut]

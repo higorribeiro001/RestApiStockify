@@ -1,4 +1,7 @@
-﻿namespace RestApiStockify.Data.Converter.Contract
+﻿using RestApiStockify.Data.VO;
+using RestApiStockify.Model;
+
+namespace RestApiStockify.Data.Converter.Contract
 {
     public interface IParser<O, D>
     {
