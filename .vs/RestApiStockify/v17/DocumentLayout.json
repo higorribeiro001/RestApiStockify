@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\business\\implementations\\productbusinessimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -146,17 +146,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "RestApiStockify\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Controllers\\ProductController.cs",
               "RelativeToolTip": "RestApiStockify\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAQwEgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T06:00:05.083Z",
               "EditorCaption": ""
@@ -171,8 +171,7 @@
               "RelativeToolTip": "RestApiStockify\\Business\\Implementations\\ProductBusinessImplementation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T05:57:14.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T05:57:14.184Z"
             },
             {
               "$type": "Document",
@@ -236,13 +235,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Program.cs",
               "RelativeDocumentMoniker": "RestApiStockify\\Program.cs",
               "ToolTip": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Program.cs",
               "RelativeToolTip": "RestApiStockify\\Program.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAjwDQAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAjwDgAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T13:44:32.918Z",
               "EditorCaption": ""
@@ -257,8 +256,7 @@
               "RelativeToolTip": "RestApiStockify\\Business\\IProductBusiness.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T05:54:22.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T05:54:22.054Z"
             },
             {
               "$type": "Document",

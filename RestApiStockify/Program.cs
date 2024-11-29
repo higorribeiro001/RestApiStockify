@@ -49,6 +49,14 @@ builder.Services.AddApiVersioning(options =>
     options.DefaultApiVersion = new Microsoft.AspNetCore.Mvc.ApiVersion(1, 0);
 });
 
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+    {
+        policy.AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod();
+    });
+});
+
 // Dependency Injection
 builder.Services.AddScoped<IProductBusiness, ProductBusinessImplementation>();
 builder.Services.AddScoped<ICategoryBusiness, CategoryBusinessImplementation>();
@@ -57,6 +65,8 @@ builder.Services.AddScoped<IDepositBusiness, DepositBusinessImplementation>();
 builder.Services.AddScoped(typeof(IRepository<>), typeof(GenericRepository<>));
 
 var app = builder.Build();
+
+app.UseCors();
 
 app.UseHttpsRedirection();
 
