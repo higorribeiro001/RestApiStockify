@@ -32,7 +32,7 @@ namespace RestApiStockify.Controllers
         [ProducesResponseType(400)]
         public async Task<ActionResult<List<Deposit>>> Get()
         {
-            var deposits = await _context.Deposit.Include(a => a.Address).ToListAsync();
+            var deposits = await _context.Deposit.Include(a => a.Address).Include(p => p.Products).ToListAsync();
             return Ok(deposits);
         }
 

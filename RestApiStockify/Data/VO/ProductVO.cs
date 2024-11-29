@@ -15,7 +15,7 @@ namespace RestApiStockify.Data.VO
         [JsonIgnore]
         public Category? Category { get; set; }
         public bool IsActive { get; set; } = true;
-        public bool IsPurchased { get; set; } = true;
+        public bool IsPurchased { get; set; } = false;
         public decimal Price { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;

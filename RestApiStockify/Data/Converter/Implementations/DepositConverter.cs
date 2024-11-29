@@ -17,6 +17,7 @@ namespace RestApiStockify.Data.Converter.Implementations
                 IsActive = origin.IsActive,
                 AddressId = origin.AddressId,
                 Address = origin.Address,
+                Products = origin.Products,
             };
         }
 
@@ -31,6 +32,7 @@ namespace RestApiStockify.Data.Converter.Implementations
                 IsActive = origin.IsActive,
                 AddressId = origin.AddressId,
                 Address = origin.Address,
+                Products = origin.Products,
             };
         }
 

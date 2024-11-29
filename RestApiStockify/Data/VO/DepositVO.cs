@@ -12,5 +12,7 @@ namespace RestApiStockify.Data.VO
         public long AddressId { get; set; }
         [JsonIgnore]
         public Address? Address { get; set; }
+        [JsonIgnore]
+        public List<Product>? Products { get; set; }
     }
 }

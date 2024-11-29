@@ -3,72 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\data\\vo\\productvo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\data\\vo\\productvo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\business\\implementations\\productbusinessimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\business\\implementations\\productbusinessimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\business\\iproductbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\business\\iproductbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\data\\converter\\implementations\\productconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\data\\converter\\implementations\\productconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\business\\idepositbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\business\\idepositbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\business\\icategorybusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\business\\icategorybusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\data\\vo\\depositvo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\data\\vo\\depositvo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\data\\vo\\productvo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\data\\vo\\productvo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\model\\context\\efdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\model\\context\\efdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\model\\deposit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\model\\deposit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\controllers\\depositcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\controllers\\depositcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\business\\implementations\\addressbusinessimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\business\\implementations\\addressbusinessimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\business\\implementations\\productbusinessimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\business\\implementations\\productbusinessimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\business\\implementations\\depositbusinessimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\business\\implementations\\depositbusinessimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\business\\idepositbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\business\\idepositbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\business\\iproductbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\business\\iproductbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\model\\deposit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\model\\deposit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\data\\converter\\implementations\\depositconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\data\\converter\\implementations\\depositconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\data\\vo\\depositvo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\data\\vo\\depositvo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\model\\context\\efdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\model\\context\\efdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\data\\vo\\categoryvo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\data\\vo\\categoryvo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\data\\converter\\implementations\\productconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\data\\converter\\implementations\\productconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\business\\icategorybusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\business\\icategorybusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\business\\implementations\\addressbusinessimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\business\\implementations\\addressbusinessimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\restapistockify.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -97,10 +101,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\data\\converter\\contract\\iparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\data\\converter\\contract\\iparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\data\\vo\\categoryvo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|solutionrelative:restapistockify\\data\\vo\\categoryvo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B1214FDF-4698-4653-BAF7-094708E20BA1}|RestApiStockify\\RestApiStockify.csproj|c:\\users\\higor\\documents\\teste zdzcode\\restapistockify\\restapistockify\\model\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -146,7 +146,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -156,22 +156,36 @@
               "RelativeDocumentMoniker": "RestApiStockify\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Controllers\\ProductController.cs",
               "RelativeToolTip": "RestApiStockify\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAqwDgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T06:00:05.083Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductBusinessImplementation.cs",
-              "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Business\\Implementations\\ProductBusinessImplementation.cs",
-              "RelativeDocumentMoniker": "RestApiStockify\\Business\\Implementations\\ProductBusinessImplementation.cs",
-              "ToolTip": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Business\\Implementations\\ProductBusinessImplementation.cs",
-              "RelativeToolTip": "RestApiStockify\\Business\\Implementations\\ProductBusinessImplementation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABBAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ProductVO.cs",
+              "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Data\\VO\\ProductVO.cs",
+              "RelativeDocumentMoniker": "RestApiStockify\\Data\\VO\\ProductVO.cs",
+              "ToolTip": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Data\\VO\\ProductVO.cs",
+              "RelativeToolTip": "RestApiStockify\\Data\\VO\\ProductVO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T05:57:14.184Z"
+              "WhenOpened": "2024-11-28T05:45:53.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DepositVO.cs",
+              "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Data\\VO\\DepositVO.cs",
+              "RelativeDocumentMoniker": "RestApiStockify\\Data\\VO\\DepositVO.cs",
+              "ToolTip": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Data\\VO\\DepositVO.cs",
+              "RelativeToolTip": "RestApiStockify\\Data\\VO\\DepositVO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T18:51:39.568Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -181,98 +195,40 @@
               "RelativeDocumentMoniker": "RestApiStockify\\Model\\Product.cs",
               "ToolTip": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Model\\Product.cs",
               "RelativeToolTip": "RestApiStockify\\Model\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwB0AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T05:25:03.732Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DepositVO.cs",
-              "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Data\\VO\\DepositVO.cs",
-              "RelativeDocumentMoniker": "RestApiStockify\\Data\\VO\\DepositVO.cs",
-              "ToolTip": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Data\\VO\\DepositVO.cs",
-              "RelativeToolTip": "RestApiStockify\\Data\\VO\\DepositVO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T18:51:39.568Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductVO.cs",
-              "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Data\\VO\\ProductVO.cs",
-              "RelativeDocumentMoniker": "RestApiStockify\\Data\\VO\\ProductVO.cs",
-              "ToolTip": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Data\\VO\\ProductVO.cs",
-              "RelativeToolTip": "RestApiStockify\\Data\\VO\\ProductVO.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T05:45:53.312Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductConverter.cs",
-              "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Data\\Converter\\Implementations\\ProductConverter.cs",
-              "RelativeDocumentMoniker": "RestApiStockify\\Data\\Converter\\Implementations\\ProductConverter.cs",
-              "ToolTip": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Data\\Converter\\Implementations\\ProductConverter.cs",
-              "RelativeToolTip": "RestApiStockify\\Data\\Converter\\Implementations\\ProductConverter.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowCoAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T05:48:08.017Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EFDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Model\\Context\\EFDBContext.cs",
-              "RelativeDocumentMoniker": "RestApiStockify\\Model\\Context\\EFDBContext.cs",
-              "ToolTip": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Model\\Context\\EFDBContext.cs",
-              "RelativeToolTip": "RestApiStockify\\Model\\Context\\EFDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T14:05:09.928Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Program.cs",
-              "RelativeDocumentMoniker": "RestApiStockify\\Program.cs",
-              "ToolTip": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Program.cs",
-              "RelativeToolTip": "RestApiStockify\\Program.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAjwDgAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T13:44:32.918Z",
+              "WhenOpened": "2024-11-28T05:25:03.732Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IProductBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Business\\IProductBusiness.cs",
-              "RelativeDocumentMoniker": "RestApiStockify\\Business\\IProductBusiness.cs",
-              "ToolTip": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Business\\IProductBusiness.cs",
-              "RelativeToolTip": "RestApiStockify\\Business\\IProductBusiness.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "DepositBusinessImplementation.cs",
+              "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Business\\Implementations\\DepositBusinessImplementation.cs",
+              "RelativeDocumentMoniker": "RestApiStockify\\Business\\Implementations\\DepositBusinessImplementation.cs",
+              "ToolTip": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Business\\Implementations\\DepositBusinessImplementation.cs",
+              "RelativeToolTip": "RestApiStockify\\Business\\Implementations\\DepositBusinessImplementation.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwA0AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T05:54:22.054Z"
+              "WhenOpened": "2024-11-27T19:03:04.352Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IDepositBusiness.cs",
-              "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Business\\IDepositBusiness.cs",
-              "RelativeDocumentMoniker": "RestApiStockify\\Business\\IDepositBusiness.cs",
-              "ToolTip": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Business\\IDepositBusiness.cs",
-              "RelativeToolTip": "RestApiStockify\\Business\\IDepositBusiness.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "DepositConverter.cs",
+              "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Data\\Converter\\Implementations\\DepositConverter.cs",
+              "RelativeDocumentMoniker": "RestApiStockify\\Data\\Converter\\Implementations\\DepositConverter.cs",
+              "ToolTip": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Data\\Converter\\Implementations\\DepositConverter.cs",
+              "RelativeToolTip": "RestApiStockify\\Data\\Converter\\Implementations\\DepositConverter.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T19:01:17.621Z"
+              "WhenOpened": "2024-11-27T18:55:58.537Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "ICategoryBusiness.cs",
               "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Business\\ICategoryBusiness.cs",
               "RelativeDocumentMoniker": "RestApiStockify\\Business\\ICategoryBusiness.cs",
@@ -284,43 +240,132 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Deposit.cs",
-              "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Model\\Deposit.cs",
-              "RelativeDocumentMoniker": "RestApiStockify\\Model\\Deposit.cs",
-              "ToolTip": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Model\\Deposit.cs",
-              "RelativeToolTip": "RestApiStockify\\Model\\Deposit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "IProductBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Business\\IProductBusiness.cs",
+              "RelativeDocumentMoniker": "RestApiStockify\\Business\\IProductBusiness.cs",
+              "ToolTip": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Business\\IProductBusiness.cs",
+              "RelativeToolTip": "RestApiStockify\\Business\\IProductBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T18:17:29.02Z"
+              "WhenOpened": "2024-11-28T05:54:22.054Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 3,
+              "Title": "ProductBusinessImplementation.cs",
+              "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Business\\Implementations\\ProductBusinessImplementation.cs",
+              "RelativeDocumentMoniker": "RestApiStockify\\Business\\Implementations\\ProductBusinessImplementation.cs",
+              "ToolTip": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Business\\Implementations\\ProductBusinessImplementation.cs",
+              "RelativeToolTip": "RestApiStockify\\Business\\Implementations\\ProductBusinessImplementation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T05:57:14.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DepositController.cs",
               "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Controllers\\DepositController.cs",
               "RelativeDocumentMoniker": "RestApiStockify\\Controllers\\DepositController.cs",
               "ToolTip": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Controllers\\DepositController.cs",
               "RelativeToolTip": "RestApiStockify\\Controllers\\DepositController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwEEAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T19:05:43.324Z"
+              "WhenOpened": "2024-11-27T19:05:43.324Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 7,
+              "Title": "Deposit.cs",
+              "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Model\\Deposit.cs",
+              "RelativeDocumentMoniker": "RestApiStockify\\Model\\Deposit.cs",
+              "ToolTip": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Model\\Deposit.cs",
+              "RelativeToolTip": "RestApiStockify\\Model\\Deposit.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T18:17:29.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IDepositBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Business\\IDepositBusiness.cs",
+              "RelativeDocumentMoniker": "RestApiStockify\\Business\\IDepositBusiness.cs",
+              "ToolTip": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Business\\IDepositBusiness.cs",
+              "RelativeToolTip": "RestApiStockify\\Business\\IDepositBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T19:01:17.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Model\\Category.cs",
               "RelativeDocumentMoniker": "RestApiStockify\\Model\\Category.cs",
               "ToolTip": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Model\\Category.cs",
               "RelativeToolTip": "RestApiStockify\\Model\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T14:14:12.604Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoryVO.cs",
+              "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Data\\VO\\CategoryVO.cs",
+              "RelativeDocumentMoniker": "RestApiStockify\\Data\\VO\\CategoryVO.cs",
+              "ToolTip": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Data\\VO\\CategoryVO.cs",
+              "RelativeToolTip": "RestApiStockify\\Data\\VO\\CategoryVO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T14:20:03.468Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Program.cs",
+              "RelativeDocumentMoniker": "RestApiStockify\\Program.cs",
+              "ToolTip": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Program.cs",
+              "RelativeToolTip": "RestApiStockify\\Program.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAjwDgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T13:44:32.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EFDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Model\\Context\\EFDBContext.cs",
+              "RelativeDocumentMoniker": "RestApiStockify\\Model\\Context\\EFDBContext.cs",
+              "ToolTip": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Model\\Context\\EFDBContext.cs",
+              "RelativeToolTip": "RestApiStockify\\Model\\Context\\EFDBContext.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAmwCMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T14:05:09.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductConverter.cs",
+              "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Data\\Converter\\Implementations\\ProductConverter.cs",
+              "RelativeDocumentMoniker": "RestApiStockify\\Data\\Converter\\Implementations\\ProductConverter.cs",
+              "ToolTip": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Data\\Converter\\Implementations\\ProductConverter.cs",
+              "RelativeToolTip": "RestApiStockify\\Data\\Converter\\Implementations\\ProductConverter.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowCoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T05:48:08.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "AddressBusinessImplementation.cs",
               "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Business\\Implementations\\AddressBusinessImplementation.cs",
               "RelativeDocumentMoniker": "RestApiStockify\\Business\\Implementations\\AddressBusinessImplementation.cs",
@@ -332,19 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "DepositBusinessImplementation.cs",
-              "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Business\\Implementations\\DepositBusinessImplementation.cs",
-              "RelativeDocumentMoniker": "RestApiStockify\\Business\\Implementations\\DepositBusinessImplementation.cs",
-              "ToolTip": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Business\\Implementations\\DepositBusinessImplementation.cs",
-              "RelativeToolTip": "RestApiStockify\\Business\\Implementations\\DepositBusinessImplementation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T19:03:04.352Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "RestApiStockify\\Controllers\\CategoryController.cs",
@@ -356,7 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "AddressController.cs",
               "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Controllers\\AddressController.cs",
               "RelativeDocumentMoniker": "RestApiStockify\\Controllers\\AddressController.cs",
@@ -368,19 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "DepositConverter.cs",
-              "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Data\\Converter\\Implementations\\DepositConverter.cs",
-              "RelativeDocumentMoniker": "RestApiStockify\\Data\\Converter\\Implementations\\DepositConverter.cs",
-              "ToolTip": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Data\\Converter\\Implementations\\DepositConverter.cs",
-              "RelativeToolTip": "RestApiStockify\\Data\\Converter\\Implementations\\DepositConverter.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowC4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T18:55:58.537Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Model\\Base\\BaseEntity.cs",
               "RelativeDocumentMoniker": "RestApiStockify\\Model\\Base\\BaseEntity.cs",
@@ -392,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "RestApiStockify.csproj",
               "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\RestApiStockify.csproj",
               "RelativeDocumentMoniker": "RestApiStockify\\RestApiStockify.csproj",
@@ -404,7 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Repository\\Generic\\GenericRepository.cs",
               "RelativeDocumentMoniker": "RestApiStockify\\Repository\\Generic\\GenericRepository.cs",
@@ -416,7 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Repository\\Generic\\IRepository.cs",
               "RelativeDocumentMoniker": "RestApiStockify\\Repository\\Generic\\IRepository.cs",
@@ -428,7 +449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "IParser.cs",
               "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Data\\Converter\\Contract\\IParser.cs",
               "RelativeDocumentMoniker": "RestApiStockify\\Data\\Converter\\Contract\\IParser.cs",
@@ -473,18 +494,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T17:53:38.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "CategoryVO.cs",
-              "DocumentMoniker": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Data\\VO\\CategoryVO.cs",
-              "RelativeDocumentMoniker": "RestApiStockify\\Data\\VO\\CategoryVO.cs",
-              "ToolTip": "C:\\Users\\Higor\\Documents\\Teste ZDZCode\\RestApiStockify\\RestApiStockify\\Data\\VO\\CategoryVO.cs",
-              "RelativeToolTip": "RestApiStockify\\Data\\VO\\CategoryVO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T14:20:03.468Z"
             },
             {
               "$type": "Document",

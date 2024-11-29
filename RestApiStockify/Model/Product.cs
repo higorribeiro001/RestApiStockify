@@ -27,7 +27,7 @@ namespace RestApiStockify.Model
         public bool IsActive { get; set; } = true;
         [Column("is_purchased")]
         [Required]
-        public bool IsPurchased { get; set; } = true;
+        public bool IsPurchased { get; set; } = false;
         [Column("price")]
         [Required]
         public decimal Price { get; set; }

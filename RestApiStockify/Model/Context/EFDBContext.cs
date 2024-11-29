@@ -29,11 +29,11 @@ namespace RestApiStockify.Model.Context
             //    .HasForeignKey<Product>(d => d.DepositId)
             //    .OnDelete(DeleteBehavior.Cascade);
 
-            modelBuilder.Entity<Product>()
-                .HasOne(d => d.Category)
-                .WithOne(a => a.Product)
-                .HasForeignKey<Product>(d => d.CategoryId)
-                .OnDelete(DeleteBehavior.Cascade);
+            //modelBuilder.Entity<Product>()
+            //    .HasOne(d => d.Category)
+            //    .WithOne(a => a.Products)
+            //    .HasForeignKey<Product>(d => d.CategoryId)
+            //    .OnDelete(DeleteBehavior.Cascade);
 
             
         }

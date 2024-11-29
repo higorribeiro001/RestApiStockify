@@ -52,11 +52,10 @@ namespace RestApiStockify.Controllers
             if (product == null) return BadRequest();
 
             var deposit = _context.Deposit.SingleOrDefault(p => p.Id == product.DepositId);
+            var productsCount = _context.Product.Count(p => p.DepositId == product.DepositId);
             if (deposit == null) return BadRequest("Deposit not found.");
-            if (deposit?.Products != null)
-            {
-                if (deposit.Products.Count == deposit.Limit) return BadRequest("Deposit has reached its limit.");
-            }
+            if (productsCount == deposit.Limit) return BadRequest("Deposit has reached its limit.");
+            
             var category = _context.Categories.SingleOrDefault(p => p.Id == product.CategoryId);
             if (category == null) return BadRequest("Category not found.");
 
@@ -73,10 +72,8 @@ namespace RestApiStockify.Controllers
 
             var deposit = _context.Deposit.SingleOrDefault(p => p.Id == product.DepositId);
             if (deposit == null) return BadRequest("Deposit not found.");
-            if (deposit?.Products != null)
-            {
-                if (deposit.Products.Count == deposit.Limit) return BadRequest("Deposit has reached its limit.");
-            }
+            if (deposit.Products?.Count == deposit.Limit) return BadRequest("Deposit has reached its limit.");
+
             var category = _context.Categories.SingleOrDefault(p => p.Id == product.CategoryId);
             if (category == null) return BadRequest("Category not found.");
 

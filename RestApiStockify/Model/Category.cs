@@ -8,6 +8,6 @@ namespace RestApiStockify.Model
     {
         [Column("name_category")]
         public string NameCategory {  get; set; }
-        public Product? Product { get; set; }
+        public List<Product> Products { get; set; }
     }
 }
