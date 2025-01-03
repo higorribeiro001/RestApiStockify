@@ -47,7 +47,7 @@ namespace RestApiStockify.Controllers
         [ProducesResponseType((201), Type = typeof(ProductVO))]
         [ProducesResponseType(204)]
         [ProducesResponseType(400)]
-        public IActionResult Post([FromBody] ProductVO product)
+        public async Task<IActionResult> Post([FromForm] ProductVO product, [FromForm] IFormFile file)
         {
             if (product == null) return BadRequest();
 
@@ -59,6 +59,10 @@ namespace RestApiStockify.Controllers
             var category = _context.Categories.SingleOrDefault(p => p.Id == product.CategoryId);
             if (category == null) return BadRequest("Category not found.");
 
+            ProductVO detail = await _productBusiness.SaveFileToDisk(file);
+
+            product.BlobImage = detail.DocUrl;
+
             return Created(value: _productBusiness.Create(product), uri: "");
         }
 
@@ -66,7 +70,7 @@ namespace RestApiStockify.Controllers
         [ProducesResponseType((200), Type = typeof(ProductVO))]
         [ProducesResponseType(204)]
         [ProducesResponseType(400)]
-        public IActionResult Put([FromBody] ProductVO product)
+        public async Task<IActionResult> Put([FromForm] ProductVO product, [FromForm] IFormFile? file)
         {
             if (product == null) return BadRequest();
 
@@ -76,6 +80,12 @@ namespace RestApiStockify.Controllers
 
             var category = _context.Categories.SingleOrDefault(p => p.Id == product.CategoryId);
             if (category == null) return BadRequest("Category not found.");
+
+            if (file != null)
+            {
+                ProductVO detail = await _productBusiness.SaveFileToDisk(file);
+                product.BlobImage = detail.DocUrl; 
+            }
 
             return Ok(_productBusiness.Update(product));
         }

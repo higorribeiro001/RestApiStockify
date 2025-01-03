@@ -8,5 +8,7 @@ namespace RestApiStockify.Business
         ProductVO Create(ProductVO product);
         ProductVO Update(ProductVO product);
         Product Delete(long id);
+        public byte[] GetFile(string filename);
+        public Task<ProductVO> SaveFileToDisk(IFormFile file);
     }
 }

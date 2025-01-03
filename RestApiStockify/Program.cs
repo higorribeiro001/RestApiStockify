@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Rewrite;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection.Extensions;
+using Microsoft.Extensions.FileProviders;
 using Microsoft.OpenApi.Models;
 using RestApiStockify.Business;
 using RestApiStockify.Business.Implementations;
@@ -36,6 +38,7 @@ builder.Services.AddSwaggerGen(c => {
     });
 
     c.ResolveConflictingActions(apiDescriptions => apiDescriptions.First());
+    c.CustomSchemaIds(type => type.FullName);
 });
 
 builder.Services.AddDbContext<EFDBContext>(options =>
@@ -58,6 +61,7 @@ builder.Services.AddCors(options =>
 });
 
 // Dependency Injection
+builder.Services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddScoped<IProductBusiness, ProductBusinessImplementation>();
 builder.Services.AddScoped<ICategoryBusiness, CategoryBusinessImplementation>();
 builder.Services.AddScoped<IAddressBusiness, AddressBusinessImplementation>();
@@ -77,6 +81,19 @@ app.UseSwaggerUI(c => {
         "/swagger/v1/swagger.json",
         $"{appName} - {appVersion}"
     );
+});
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "API v1"));
+}
+
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(
+        Path.Combine(Directory.GetCurrentDirectory(), "UploadDir")),
+    RequestPath = "/api/file/v1"
 });
 
 var option = new RewriteOptions();

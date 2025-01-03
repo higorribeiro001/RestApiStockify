@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RestApiStockify")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e88fde756d8e470a50e4773210e80604a446d756")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e19fde4a33e695cbc4541cf260c7da63562b1673")]
 [assembly: System.Reflection.AssemblyProductAttribute("RestApiStockify")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RestApiStockify")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

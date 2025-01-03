@@ -12,7 +12,7 @@ namespace RestApiStockify.Data.Converter.Implementations
             return new Product
             {
                 Id = origin.Id,
-                Name = origin.Name,
+                Name = origin.ProductName,
                 BlobImage = origin.BlobImage,
                 Description = origin.Description,
                 CategoryId = origin.CategoryId,
@@ -31,7 +31,7 @@ namespace RestApiStockify.Data.Converter.Implementations
             return new ProductVO
             {
                 Id = origin.Id,
-                Name = origin.Name,
+                ProductName = origin.Name,
                 BlobImage = origin.BlobImage,
                 Description = origin.Description,
                 CategoryId = origin.CategoryId,

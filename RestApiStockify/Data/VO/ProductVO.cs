@@ -7,10 +7,12 @@ namespace RestApiStockify.Data.VO
 {
     public class ProductVO
     {
+        [JsonPropertyName("id")]
         public long Id { get; set; }
-        public string Name { get; set; }
-        public string BlobImage { get; set; }
-        public string Description { get; set; }
+        [JsonPropertyName("name")]
+        public string? ProductName { get; set; }
+        public string? BlobImage { get; set; }
+        public string? Description { get; set; }
         public long CategoryId { get; set; }
         [JsonIgnore]
         public Category? Category { get; set; }
@@ -22,5 +24,8 @@ namespace RestApiStockify.Data.VO
         public long DepositId { get; set; }
         [JsonIgnore]
         public Deposit? Deposit { get; set; }
+        public string? DocumentName { get; set; }
+        public string? DocType { get; set; }
+        public string? DocUrl { get; set; }
     }
 }

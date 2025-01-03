@@ -681,9 +681,229 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "product",
-        "Type": "RestApiStockify.Data.VO.ProductVO",
-        "IsRequired": true
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BlobImage",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Category.NameCategory",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Category.Products",
+        "Type": "System.Collections.Generic.List\u00601[[RestApiStockify.Model.Product, RestApiStockify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Category.Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsPurchased",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "CreatedAt",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "UpdatedAt",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "DepositId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.DepositName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.IsActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.AddressId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Address.Cep",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Address.AddressValue",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Address.Neighborhood",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Address.City",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Address.Uf",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Address.Country",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Address.Latitude",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Address.Longitude",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Address.Deposit.DepositName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Address.Deposit.Limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Address.Deposit.IsActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Address.Deposit.AddressId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Address.Deposit.Address",
+        "Type": "RestApiStockify.Model.Address",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Address.Deposit.Products",
+        "Type": "System.Collections.Generic.List\u00601[[RestApiStockify.Model.Product, RestApiStockify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Address.Deposit.Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Address.Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Products",
+        "Type": "System.Collections.Generic.List\u00601[[RestApiStockify.Model.Product, RestApiStockify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "DocumentName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DocType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DocUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
       },
       {
         "Name": "version",
@@ -726,9 +946,229 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "product",
-        "Type": "RestApiStockify.Data.VO.ProductVO",
-        "IsRequired": true
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BlobImage",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Category.NameCategory",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Category.Products",
+        "Type": "System.Collections.Generic.List\u00601[[RestApiStockify.Model.Product, RestApiStockify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Category.Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsPurchased",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "CreatedAt",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "UpdatedAt",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "DepositId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.DepositName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.IsActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.AddressId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Address.Cep",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Address.AddressValue",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Address.Neighborhood",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Address.City",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Address.Uf",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Address.Country",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Address.Latitude",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Address.Longitude",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Address.Deposit.DepositName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Address.Deposit.Limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Address.Deposit.IsActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Address.Deposit.AddressId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Address.Deposit.Address",
+        "Type": "RestApiStockify.Model.Address",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Address.Deposit.Products",
+        "Type": "System.Collections.Generic.List\u00601[[RestApiStockify.Model.Product, RestApiStockify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Address.Deposit.Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Address.Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Products",
+        "Type": "System.Collections.Generic.List\u00601[[RestApiStockify.Model.Product, RestApiStockify, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposit.Id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "DocumentName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DocType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DocUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
       },
       {
         "Name": "version",

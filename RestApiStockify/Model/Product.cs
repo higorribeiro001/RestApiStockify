@@ -10,14 +10,14 @@ namespace RestApiStockify.Model
         [Column("name")]
         [Required]
         [StringLength(120)]
-        public string Name { get; set; }
+        public string? Name { get; set; }
         [Column("blob_image")]
         [Required]
-        public string BlobImage { get; set; }
+        public string? BlobImage { get; set; }
         [Column("description")]
         [StringLength(255)]
         [Required]
-        public string Description { get; set; }
+        public string? Description { get; set; }
         [ForeignKey("category_id")]
         [Required]
         public long CategoryId { get; set; }
